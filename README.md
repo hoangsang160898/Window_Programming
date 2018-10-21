@@ -1,4 +1,5 @@
 # Window Programming HCMUS
-### Nguyễn Hoàng Sang
-### 1612556
-### 1612556@student.hcmus.edu.vn
+## Giảng viên: Trần Duy Quang
+### Học viên: Nguyễn Hoàng Sang
+### MSSV: 1612556
+### Email: 1612556@student.hcmus.edu.vn
