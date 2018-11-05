@@ -1,0 +1,27 @@
+﻿<Window x:Class="MiniGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiniGame"
+        mc:Ignorable="d"
+        Title="Mini Game" Height="450" Width="600" Icon="/img/icons/logo_final.ico">
+    <Grid>
+        <Image Margin="0,32,252,157" HorizontalAlignment="Right" Width="282" Name="question" Source="img/icons/logo_large.jpg"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="440,247,0,0" VerticalAlignment="Top" Width="75" Name="start" Click="click_start"/>
+        <Button Content="Answer 1" HorizontalAlignment="Left" Margin="93,310,0,0" VerticalAlignment="Top" Width="75" Name="left" Click="click_answer1"/>
+        <Button Content="Answer 2" HorizontalAlignment="Left" Margin="228,310,0,0" VerticalAlignment="Top" Width="75" Name="right" Click="click_answer2"/>
+        <Label Content="Score: 0" HorizontalAlignment="Left" Margin="450,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Name="score">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.539"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+
+    </Grid>
+</Window>

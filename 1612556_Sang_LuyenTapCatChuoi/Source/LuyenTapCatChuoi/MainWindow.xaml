@@ -1,0 +1,20 @@
+﻿<Window x:Class="LuyenTapCatChuoi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LuyenTapCatChuoi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="251.005" Width="785.302">
+    <Grid>
+        <Button Content="Tổng phân số" HorizontalAlignment="Left" Margin="152,115,0,0" VerticalAlignment="Top" Width="92" Name="btn_sumPS" Click="btn_sumPS_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="45,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314" TextChanged="TextBox_TextChanged" Name="txtBox_PS"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="408,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="322" TextChanged="TextBox_TextChanged_1" Name="txtBox_SN"/>
+        <Button Content="Tổng số nguyên" HorizontalAlignment="Left" Margin="510,115,0,0" VerticalAlignment="Top" Width="111" Name="btn_sumSN" Click="btn_sumSN_Click"/>
+        <Label Content="" HorizontalAlignment="Left" Height="27" Margin="510,166,0,0" VerticalAlignment="Top" Width="200" Name="lbl_result"/>
+        <Label Content="Tính tổng phân số" HorizontalAlignment="Left" Margin="45,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tính tổng số nguyên" HorizontalAlignment="Left" Margin="408,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kết quả: " HorizontalAlignment="Left" Margin="449,166,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.058,0.622"/>
+
+    </Grid>
+</Window>
