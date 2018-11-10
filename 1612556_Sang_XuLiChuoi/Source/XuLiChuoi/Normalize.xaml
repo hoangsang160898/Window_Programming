@@ -1,0 +1,16 @@
+﻿<Window x:Class="XuLiChuoi.Statistics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XuLiChuoi"
+        mc:Ignorable="d"
+        Title="Normalize" Height="170" Width="660">
+    <Grid>
+        <Label Content="Input:" HorizontalAlignment="Left" Margin="11,21,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.771,-0.204"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="11,47,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="621" TextChanged="TextBox_TextChanged" Name="txtBox_stringNormalize"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="557,75,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Result" HorizontalAlignment="Left" Margin="11,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.198,-0.414" Width="621" Name="lbl_resultNormalize"/>
+
+    </Grid>
+</Window>
