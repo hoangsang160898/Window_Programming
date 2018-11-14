@@ -10,3 +10,6 @@ sẽ có tip hiện 3s thông tin user và admin để đăng nhập đúng.
 - Khi nhập sai user hay pass sẽ hiện thông báo error (Các thông báo
 error chỉ hiện 2s sẽ tự động tắt)
 - Form có thể minimize, close, move window
+- Có thể sử dụng nút Enter để đăng nhập
+- Alt + U: đến ô Username
+- Alt + P: đến ô Password

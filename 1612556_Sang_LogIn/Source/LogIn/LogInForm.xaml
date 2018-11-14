@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:LogIn"
         mc:Ignorable="d"
         Icon="img/icon/smile_icon_white.png"
-        Title="Log In" Height="800" Width="785" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None"  AllowsTransparency="True" Background="Transparent">
-    <Border Background="#00a7ee" CornerRadius="15,15,15,15">
+        Title="Log In" Height="803" Width="788" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None"  AllowsTransparency="True" Background="Transparent">
+    <Border Background="#00a7ee" CornerRadius="16,16,16,16" BorderBrush="#00a7ee" BorderThickness="1.5">
         <Grid>
-            <Border x:Name="TitleBar" Width="785" Height="40" Background="White" CornerRadius="15,15,0,0" Margin="0" VerticalAlignment="Top" MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
+            <Border x:Name="TitleBar" Width="784" Height="40" Background="White" CornerRadius="15,15,0,0" Margin="0,0,0,0" VerticalAlignment="Top" MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
                 <Label Content="Welcome to XAML"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" Margin="0,0,40,0" Padding="0" VerticalAlignment="Top" Width="705" FontFamily="Arial" FontSize="15" FontWeight="Bold" BorderBrush="{x:Null}" Height="40" Foreground="Black"/>
             </Border>
-            <Rectangle HorizontalAlignment="Center" Height="450" Margin="0,50,0,0" VerticalAlignment="Center" Width="300" Fill="#FFFBFBFB" RadiusX="20" RadiusY="20" RenderTransformOrigin="0.113,0.213"/>
+            <Rectangle HorizontalAlignment="Center" Height="450" Margin="0,50,0,0" VerticalAlignment="Center" Width="300" Fill="#FFFBFBFB" RadiusX="15" RadiusY="15"/>
             <Image HorizontalAlignment="Center" Height="100" Margin="0,240,0,0" VerticalAlignment="top" Width="100" Source="img/icon/logo.png"/>
             <Border BorderBrush="#00a7ee" BorderThickness="3" SnapsToDevicePixels="True" Padding="0" Margin="0,390,0,0" Width="250" Height="33" HorizontalAlignment="Center" VerticalAlignment="Top" CornerRadius="15" Background="White">
                 <TextBox MaxLength="31"  Opacity="0.7" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  HorizontalAlignment="center" Height="25" Margin="15,1" Text="" VerticalAlignment="Top" Width="225.584"  TextChanged="TextBox_TextChanged" Name="txtbUsername" BorderThickness="0" FontFamily="Arial" HorizontalScrollBarVisibility="Disabled" UseLayoutRounding="False" SnapsToDevicePixels="True" BorderBrush="{x:Null}"/>
@@ -101,7 +101,7 @@
             </Button>
             <Image Source="img/icon/user_icon.png" HorizontalAlignment="Left" Height="26" Margin="279,359,0,0" VerticalAlignment="Top" Width="26"/>
             <Image Source="img/icon/pass_icon.png" HorizontalAlignment="Left" Height="26" Margin="279,439,0,0" VerticalAlignment="Top" Width="26"/>
-            <Button Name="btnClose" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="X" HorizontalAlignment="Right" Margin="0,0,0,0" Padding="0" VerticalAlignment="Top" Width="40" FontFamily="Arial" FontSize="15" FontWeight="Bold" BorderBrush="{x:Null}" Height="40" Click="btnClose_Click">
+            <Button Name="btnClose" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="X" HorizontalAlignment="Right" Margin="0,0,1,0" Padding="0" VerticalAlignment="Top" Width="40" FontFamily="Arial" FontSize="15" FontWeight="Bold" BorderBrush="{x:Null}" Height="40" Click="btnClose_Click">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="White"/>
@@ -124,7 +124,7 @@
                     </Style>
                 </Button.Style>
             </Button>
-            <Button Name="btnMini" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="_" HorizontalAlignment="Right" Margin="0,0,40,0" Padding="0" VerticalAlignment="Top" Width="40" FontFamily="Arial" FontSize="15" FontWeight="Bold" BorderBrush="{x:Null}" Height="40" Click="btnMini_Click">
+            <Button Name="btnMini" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="_" HorizontalAlignment="Right" Margin="0,0,41,0" Padding="0" VerticalAlignment="Top" Width="40" FontFamily="Arial" FontSize="15" FontWeight="Bold" BorderBrush="{x:Null}" Height="40" Click="btnMini_Click">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="White"/>
